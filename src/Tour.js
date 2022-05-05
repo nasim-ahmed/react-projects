@@ -17,8 +17,13 @@ const Tour = ({ id, image, info, name, price }) => {
                         </div>
                     </div>
                     
-                    <p className="card-text mt-4">{readMore ? info : `${info.substring(0, 200)}...`}<button id="readMore" className="btn" onClick={() => { setReadMore(!readMore)}}>{ readMore ? 'show less': 'show more'}</button></p>
-                    <button className="btn btn-primary text-center mt-4">Not Interested</button>
+                    <p className="card-text mt-4">{readMore ? info : `${info.substring(0, 200)}...`}<button id="readMore" className="btn" onClick={() => { setReadMore(!readMore) }}>{readMore ? 'show less' : 'show more'}</button></p>
+                    <div class="row">
+                        <div class="col text-center">
+                           <button id="not-interested" className="btn btn-primary">Not Interested</button>
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
         </div>
