@@ -62,6 +62,8 @@ h1{
   font-size: 100px;
 }
 
+
+
 .underline{
   width: 12rem;
   height: 0.30rem;
@@ -72,4 +74,27 @@ h1{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.tour-price{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-weight: 10px;
+  color: var(--clr-primary-5);
+  background: var(--clr-primary-10);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius);
+  letter-spacing: var(--spacing);
+}
+
+p{
+  font-size: 2rem;
+  color: var(--clr-grey-5);
+}
+
+#readMore{
+  font-size: 2rem;
+  color: var(--clr-primary-5);
+  align-items: center;
+  padding: 5px 10px;
 }

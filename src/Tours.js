@@ -13,7 +13,6 @@ const Tours = ({ tours }) => {
                     return <Tour key={tour.id} {...tour} />;
                 })}
             </div>
-            
         </div>
     );
 };
